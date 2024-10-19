@@ -14,7 +14,6 @@ That data set is a sales data set of one of the most famous NFT projects, Crypto
 I've to answer the following prompts.
 <br>
 1. How many sales occurred during this time period? 
-<br>
 2. Return the top 5 most expensive transactions (by USD price) for this data set. Return the name, ETH price, and USD price, as well as the date.
 <br>
 3. Return a table with a row for each transaction with an event column, a USD price column, and a moving average of USD price that averages the last 50 transactions.
@@ -42,6 +41,7 @@ I've to answer the following prompts.
 13. Create an “estimated average value calculator” that has a representative price of the collection every day based off of these criteria:
  <br>
  - Exclude all daily outlier sales where the purchase price is below 10% of the daily average price
+<br>
  - Take the daily average of remaining transactions
  <br>
  a) First create a query that will be used as a subquery. Select the event date, the USD price, and the average USD price for each day using a window function. Save it as a temporary table.
