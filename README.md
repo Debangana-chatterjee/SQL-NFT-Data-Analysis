@@ -45,4 +45,5 @@ I've to answer the following prompts.
  - Take the daily average of remaining transactions
  <br>
  a) First create a query that will be used as a subquery. Select the event date, the USD price, and the average USD price for each day using a window function. Save it as a temporary table.
+<br>
  b) Use the table you created in Part A to filter out rows where the USD prices is below 10% of the daily average and return a new estimated value which is just the daily average of the filtered data.
